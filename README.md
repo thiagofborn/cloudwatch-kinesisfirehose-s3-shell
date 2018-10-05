@@ -15,10 +15,10 @@ VPC Flow Logs: Select if you want "All Traffic", "Accepted" or "Rejected"
 ![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-1.png "VPC Flow Logs")
 
 VPC Flow Logs: Select the Log Group Created by the Script
-![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-1.png "VPC Flow Logs")
+![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-2.png "VPC Flow Logs")
 
 VPC Flow Logs: Select the *Cloudwatch* role created by the Script
-![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-1.png "VPC Flow Logs")
+![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-3.png "VPC Flow Logs")
 
 
 ### How it works
