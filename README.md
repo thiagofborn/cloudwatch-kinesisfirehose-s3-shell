@@ -8,8 +8,17 @@ For instance, if you want to push *AWS Cloudtrail* events to the log group, you 
 
 In case you want to push *VPC Flow logs* to the log group, please go to your AWS Web console, select the VPC you want to have the logs being streamed, click the tab *Flow Logs*. 
 
-VPC Flow Logs:
+VPC Flow Logs: 1 - Tick the VPC you want to create the flow logs and click the tab *Flow Logs"
 ![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-0.png "VPC Flow Logs")
+
+VPC Flow Logs: Select if you want "All Traffic", "Accepted" or "Rejected"
+![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-1.png "VPC Flow Logs")
+
+VPC Flow Logs: Select the Log Group Created by the Script
+![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-1.png "VPC Flow Logs")
+
+VPC Flow Logs: Select the *Cloudwatch* role created by the Script
+![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-1.png "VPC Flow Logs")
 
 
 ### How it works
