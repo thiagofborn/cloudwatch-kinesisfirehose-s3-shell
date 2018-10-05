@@ -1,4 +1,4 @@
-# cloudwatch-kinesisfirehose-s3
+# cloudwatch-kinesisfirehose-s3-shell
 This script helps to create an environment to test *AWS Cloudwatch* logs subscription filter to *AWS Kinesis Firehose Delivery Data Stream* using a *AWS S3 bucket* as final destination. 
 
 Please note, that we are not covering any type of data transformation. Additionally, the final action of push the load stream to the log group needs to be done by you. 
@@ -9,8 +9,7 @@ For instance, if you want to push *AWS Cloudtrail* events to the log group, you 
 In case you want to push *VPC Flow logs* to the log group, please go to your AWS Web console, select the VPC you want to have the logs being streamed, click the tab *Flow Logs*. 
 
 VPC Flow Logs:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "VPC Flow Logs")
-
+![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-0.png "VPC Flow Logs")
 
 
 ### How it works
