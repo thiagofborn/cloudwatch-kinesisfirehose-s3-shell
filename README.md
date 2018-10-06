@@ -5,6 +5,7 @@ Please note, that we are not covering any type of data transformation. Additiona
 
 For instance, if you want to push *AWS Cloudtrail* events to the log group, you will need to go the AWS Web console then select the trail and point the train to send data to the log group defined on your subscription.conf file. 
 
+---
  1 - Cloudtrail: From your AWS Web Console go to Cloudtrail and click *View trails"
 ![Cloudtrail Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/cloudtrail-0.png "Cloudtrail Events")
 
@@ -14,6 +15,7 @@ For instance, if you want to push *AWS Cloudtrail* events to the log group, you 
 3 - Cloudtrail: Select the log group and the role
 ![Cloudtrail Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/cloudtrail-2.png "Cloudtrail Events")
 
+---
 
 In case you want to push *VPC Flow logs* to the log group, please go to your AWS Web console, select the VPC you want to have the logs being streamed, click the tab *Flow Logs*. 
 
@@ -29,6 +31,7 @@ In case you want to push *VPC Flow logs* to the log group, please go to your AWS
  4 - VPC Flow Logs: Select the *Cloudwatch* role created by the Script
 ![Flow Logs Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/flow-3.png "VPC Flow Logs")
 
+---
 
 ### How it works
 ---
