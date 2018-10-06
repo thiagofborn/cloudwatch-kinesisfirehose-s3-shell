@@ -33,6 +33,10 @@ In case you want to push *VPC Flow logs* to the log group, please go to your AWS
 
 ---
 
+### Simplified Diagram
+
+![Diagram](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/simplified-diagram.png "Diagram is showing VPC and Cloudtrail as options")
+
 ### How it works
 ---
 The script: 0_s3_final_destination.sh calls all the other scripts as follows:
