@@ -53,7 +53,7 @@ The script: 0_s3_final_destination.sh calls all the other scripts as follows:
 ```
 
 The definitions to create the environment needs to be defined at the file **subscription.conf** as follows:
-Be sure that there is no spaces or blank lines after each variable. And add your account id accordingly.
+Be sure that there is no spaces or blank lines assigned to each variable. And add your account id accordingly.
 ```
 BUCKET_NAME=bucket2cwl2firehose2es
 REGION1=eu-west-1
