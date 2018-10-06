@@ -70,7 +70,7 @@ The script receives the values from the file and executes each script that is co
 
 ## Output 
 ---
-A AWS Kinesis Firehose Delivery Data Stream that receives data from Cloudwatch Logs via subscription filter, and then delivers this data to a S3 bucket. Also the policies and roles involved to make the action possible 
+A AWS Kinesis Firehose Delivery Data Stream that receives data from Cloudwatch Logs via subscription filter, and then delivers this data to a S3 bucket. Also the policies and roles involved to make the actions possible. The table below shows the result based on the default **subscription.conf**. 
 
 
 Per service the script creates: 
@@ -95,7 +95,7 @@ So, in case you notice the error message:
 
 ## Deletion of the test environment 
 ---
-The deletion of the test environment reads the same file **subscription.conf** and executes *AWS CLI commands* to delete everything that was created via the script. 
+The deletion of the test environment reads the same file **subscription.conf** and executes *AWS CLI commands* to delete everything that was created via the script. The script *13_func_clean_up.sh* does the "clean" action, deleting the environment. 
 
 
 
