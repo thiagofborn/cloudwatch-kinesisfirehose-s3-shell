@@ -1,4 +1,4 @@
-# cloudwatch-kinesisfirehose-s3-shell
+
 This script helps to create an environment to test *AWS Cloudwatch* logs subscription filter to *AWS Kinesis Firehose Delivery Data Stream* using a *AWS S3 bucket* as final destination. The shell script adoption for this test environment was motivated by my Linux friends. 
 
 Please note, that we are not covering any type of data transformation. Additionally, the final action of push the load stream to the log group needs to be done by you. 
@@ -62,6 +62,16 @@ The script: 0_s3_final_destination.sh calls all the other scripts as follows:
 12_func_put_subscription.sh
 ```
 
+The script receives the values from the file and executes each script that is composed by shell scripts commands and AWS CLI commands to create the test environment. 
+
+## Using the script 
+1 - Clone the repository
+```
+git clone https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell
+cd cloudwatch-kinesisfirehose-s3-shell
+```
+2 - Edit the file subscription.conf with the names and your account id. 
+
 The definitions to create the environment needs to be defined at the file **subscription.conf** as follows:
 Be sure that there is no spaces or blank lines assigned to each variable. And add your account id accordingly.
 ```
@@ -76,7 +86,11 @@ MY_DELIVERY_STREAM_NAME=Firehose_cwl2firehose2es
 DESTINATION_NAME=DestinationName_cwl2firehose2e
 ```
 
-The script receives the values from the file and executes each script that is composed by shell scripts commands and AWS CLI commands to create the test environment. 
+3 - Run the script 
+```
+./0_s3_final_destination.sh 
+```
+
 
 ## Output 
 ---
