@@ -73,12 +73,12 @@ cd cloudwatch-kinesisfirehose-s3-shell
 2 - Edit the file subscription.conf with the names and your account id. 
 
 The definitions to create the environment needs to be defined at the file **subscription.conf** as follows:
-Be sure that there is no spaces or blank lines assigned to each variable. And add your account id accordingly.
+Be sure that there is no spaces or blank lines assigned to each variable. And add your account id accordingly (**ACCOUNT_ID**), the first line on the file. 
 ```
+ACCOUNT_ID=123456789012
 BUCKET_NAME=bucket2cwl2firehose2es
 REGION1=eu-west-1
 REGION2=eu-west-2
-ACCOUNT_ID=123456789012
 ROLE_NAME_FIREHOSE=Role_cwl2FIREHOSE2es
 ROLE_NAME_CWL=Role_2CWL2firehose2es
 LOG_GROUP_NAME=LogGroupName_cwl2firehose2es
