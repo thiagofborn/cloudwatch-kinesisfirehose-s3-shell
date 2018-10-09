@@ -1,5 +1,5 @@
 
-This script helps to create an environment to test *AWS Cloudwatch* logs subscription filter to *AWS Kinesis Firehose Delivery Data Stream* using a *AWS S3 bucket* as final destination. The shell script adoption for this test environment was motivated by my Linux friends. 
+This script helps to create an environment to test *AWS Cloudwatch* logs subscription filter to *AWS Kinesis Firehose Delivery Data Stream* using an *AWS S3 bucket* as the final destination. The shell script adoption for this test environment was motivated by my Linux friends. 
 
 Please note, that we are not covering any type of data transformation. Additionally, the final action of push the load stream to the log group needs to be done by you. 
 
@@ -94,8 +94,7 @@ DESTINATION_NAME=DestinationName_cwl2firehose2e
 
 ## Output 
 ---
-A AWS Kinesis Firehose Delivery Data Stream that receives data from Cloudwatch Logs via subscription filter, and then delivers this data to a S3 bucket. Also the policies and roles involved to make the actions possible. The table below shows the result based on the default **subscription.conf**. 
-
+An AWS Kinesis Firehose Delivery Data Stream that receives data from Cloudwatch Logs via subscription filter, and then delivers this data to an S3 bucket. Also, the policies and roles involved in making the actions possible. The table below shows the result based on the default **subscription.conf**. 
 
 Per service the script creates: 
 AWS Service Name | Resouce Name | Resouce Type | Quantity
