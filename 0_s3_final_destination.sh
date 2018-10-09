@@ -20,7 +20,7 @@
 ./9_func_create_permission_policy_to_cloudwatch_role.sh
 ./10_func_add_permission_policy_to_cloudwatch_role.sh
 ./11_func_create_log_group.sh
-echo "$(tput setaf 1) $(tput setab 7)✓  Every attemp of Put Log Subscription fails when I have tried to put via script immediatelly after the create_log_group function so... I will wait 10 seconds and if it fails please retry the script retry.$(tput sgr 0)"
+echo "$(tput setaf 1) $(tput setab 7)✓  Every attemp of Put Log Subscription fails when I have tried to put via script immediatelly after the create_log_group function so... I will wait 10 seconds and if it fails please retry the script 12_func_put_subscription.sh. By excuting it ./12_func_put_subscription.sh .$(tput sgr 0)"
 sleep 10 
 ./12_func_put_subscription.sh 
 # For some unknown reason the first attempt always fails
@@ -28,3 +28,4 @@ sleep 10
 
 
 
+ 
