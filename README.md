@@ -1,4 +1,5 @@
 
+### cloudwatch-kinesisfirehose-s3-shell
 This script helps to create an environment to test *AWS Cloudwatch* logs subscription filter to *AWS Kinesis Firehose Delivery Data Stream* using an *AWS S3 bucket* as the final destination. The shell script adoption for this test environment was motivated by my Linux friends. 
 
 Please note, that we are not covering any type of data transformation. Additionally, the final action of push the load stream to the log group needs to be done by you. 
@@ -40,8 +41,6 @@ In case you want to push *VPC Flow logs* to the log group, please go to your AWS
 ---
 ### Pre-requisites
 You need to have AWS CLI configured with a profile that can execute the commands, and a operating system that has the shell *BASH* installed. 
-
-
 
 ### How it works
 ---
@@ -90,7 +89,6 @@ DESTINATION_NAME=DestinationName_cwl2firehose2e
 ```
 ./0_s3_final_destination.sh 
 ```
-
 
 ## Output 
 ---
