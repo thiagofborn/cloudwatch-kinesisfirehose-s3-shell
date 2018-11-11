@@ -88,7 +88,7 @@ DESTINATION_NAME=DestinationName_cwl2firehose2e
 3 - Run the script 
 ```
 ./0_s3_final_destination.sh 
-```ll
+```
 
 ## Output 
 ---
