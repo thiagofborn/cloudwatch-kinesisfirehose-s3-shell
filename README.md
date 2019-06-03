@@ -7,7 +7,7 @@ Please note, that we are not covering any type of data transformation. Additiona
 For instance, if you want to push *AWS Cloudtrail* events to the log group, you will need to go the AWS Web console then select the trail and point the train to send data to the log group defined on your subscription.conf file. 
 
 ---
- 1 - Cloudtrail: From your AWS Web Console go to Cloudtrail and click *View trails*"
+ 1 - Cloudtrail: From your AWS Web Console go to Cloudtrail and click *View trails*.
 ![Cloudtrail Configuration](https://github.com/thiagofborn/cloudwatch-kinesisfirehose-s3-shell/blob/master/images/cloudtrail-0.png "Cloudtrail Events")
 
  2 - Cloudtrail: Select the trail you want to delivery to S3 bucket by clicking the link of the trail
