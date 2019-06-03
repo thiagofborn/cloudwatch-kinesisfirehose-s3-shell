@@ -119,7 +119,7 @@ So, in case you notice the error message:
 The deletion of the test environment reads the same file **subscription.conf** and executes *AWS CLI commands* to delete everything that was created via the script. The script ```13_func_clean_up.sh``` does the "clean" action, deleting the environment. 
 
 ---
-Please keep in mind this the instructions provided "as is", without warranty of any kind,express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. Feel free to copy and modify as much as you want, however take responsibility of your changes. 
+Please keep in mind this the instructions provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. Feel free to copy and modify as much as you want, however take responsibility of your changes. 
 
 
 
