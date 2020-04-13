@@ -4,7 +4,7 @@ This script helps to create an environment to test *AWS Cloudwatch* logs subscri
 
 Please note, that we are not covering any type of data transformation. Additionally, the final action of push the load stream to the log group needs to be done by you. 
 
-For instance, if you want to push *AWS Cloudtrail* events to the log group, you will need to go the AWS Web console then select the trail and point the train to send data to the log group defined on your subscription.conf file. 
+For instance, if you want to push *AWS Cloudtrail* events to the log group, you will need to go the AWS Web console then select the trail and point the train to send data to the log group defined on your *subscription.conf* file. 
 
 ---
  1 - Cloudtrail: From your AWS Web Console go to Cloudtrail and click *View trails*.
@@ -120,6 +120,8 @@ The deletion of the test environment reads the same file **subscription.conf** a
 
 ---
 Please keep in mind this the instructions provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. Feel free to copy and modify as much as you want, however take responsibility of your changes. 
+
+>Notice: If you need some help, open an issue, and we can discuss it together. Feel free to reach out. 
 
 
 
